@@ -74,17 +74,6 @@ function saveGoals() {
   localStorage.setItem("goals", JSON.stringify(goals));
   renderGoals();
 }
-
-// Add new goal
-// addBtn.addEventListener("click", () => {
-//   const text = input.value.trim();
-//   if (text === "") return;
-
-//   goals.push({ text, completed: false });
-//   input.value = "";
-//   saveGoals();
-// });
-
 // Enter key support
 input.addEventListener("keypress", (e) => {
   if (e.key === "Enter") addBtn.click();
