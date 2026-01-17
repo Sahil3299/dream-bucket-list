@@ -48,7 +48,6 @@ dream-bucket-list/
 - State management using JavaScript objects & arrays
 - Browser storage with localStorage
 - Responsive Web Design principles
-- Basic UI/UX design practices
 
 ---
 
